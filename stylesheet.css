@@ -90,3 +90,10 @@ p { margin-top:0px;}
 	right: 4px;
 	font-size: 20px;
 }
+
+.table {
+	display:table;
+}
+.table > .cell {
+	display:table-cell;
+}
