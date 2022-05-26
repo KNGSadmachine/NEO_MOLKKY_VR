@@ -108,7 +108,17 @@ p { margin-top:0px;}
 
 .table {
 	display:table;
+	margin-left: auto;
+    margin-right: auto;
 }
 .table > .cell {
 	display:table-cell;
+	width:30%; /*幅を100%に*/
+	table-layout:fixed; /*中の要素の幅を均等に*/
+	padding:10px;
+	
+}
+
+#foot_text{
+	display:inline;
 }
