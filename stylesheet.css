@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
+.header {
+  background-color: #009D5B;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 50px;
+  margin-right: auto;
+  margin-left : auto;
+}
+
 html {
   font-size:62.5%;
 }
