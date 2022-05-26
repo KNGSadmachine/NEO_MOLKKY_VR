@@ -22,10 +22,10 @@ li {
 }
 
 #main {
-  background-color: #ffffff;
+  background-color: #f4f7cb;
   color: #000000;
   text-align: center;
-  margin:0; 
+  margin-top:-25px; 
 }
 
 #NEO_MOLKKY {
@@ -33,8 +33,25 @@ li {
   padding:-1000px;  
 }
 
+#shot {
+	font-size: 25px;
+  padding:-1000px;
+}
+
+#hr1 {
+	border-top: 3px solid #000;
+  width: 80%;
+}
+
 #main_text {
   padding:0px;  
+}
+
+#real12e {
+	font-family: "Avenir Next";
+  margin-right: auto;
+  margin-left : auto;
+  text-align: center;
 }
 
 #footer {
@@ -47,13 +64,13 @@ h1 { margin-bottom:0px;}
 p { margin-top:0px;}
 
 .open {
-	cursor:pointer; /* マウスオーバーでカーソルの形状を変えることで、クリックできる要素だとわかりやすいように */
+	cursor:pointer;
 }
 #pop-up {
-	display: none; /* label でコントロールするので input は非表示に */
+	display: none;
 }
 .overlay {
-	display: none; /* input にチェックが入るまでは非表示に */
+	display: none;
 }
 #pop-up:checked + .overlay {
 	display: block;
