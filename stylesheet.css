@@ -23,7 +23,13 @@ li {
 
 #main {
   background-color: #ffffff;
+  color: #000000;
   height: 600px;
+  text-align: center;
+}
+
+#NEO_MOLKKY {
+  font-size: 50px;
 }
 
 #footer {
